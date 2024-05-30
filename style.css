@@ -1,0 +1,105 @@
+/* reset */
+body {
+    font-family: arial;
+    margin : 0;
+    padding : 0;
+    background-color: #f0f0f0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar{
+    background-color: #000000;
+    color : #ffffff;
+    padding : 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links li{
+    list-style-type: none;
+    font-size: 15px;
+}
+
+/* CSS Produto */
+.product {
+    display : flex;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top : 40px;
+    /* rgba(red, green, blue, opacidade) = hexadecimal #111111 */
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    overflow: width;
+}
+
+.product-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-name {
+    font-size : 24px;
+    color : #333333;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-description {
+    color : #666666;
+}
+
+.product-price {
+    font-size : 18px;
+    font-weight: bold;
+    color : #333333;
+}
+
+.product-button {
+    padding: 10px 20px;
+    border : none;
+    background-color: #333333;
+    color : #ffffff;
+    cursor : pointer;
+    font-size : 16px;
+    border-radius : 5px
+}
+
+.product-button:hover {
+    background-color : #555555;
+}
+
+/* CSS Rodapé */
+.footer {
+    background-color: #333333;
+    color : #ffffff;
+    padding: 20px;
+    text-align: center;
+    position : fixed;
+    bottom: 0;
+    width: 100%;
+}
